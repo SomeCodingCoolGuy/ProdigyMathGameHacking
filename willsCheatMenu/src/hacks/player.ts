@@ -84,6 +84,7 @@ new Hack(category.player, "Set name (Client side only)").setClick(async () => {
 	_.player.getName = () => {return name.value}
 	await Toast.fire("Changed!","Your name was changed.")
 });
+/* Ignore the code below */
 /*
 
 let interval: unknown | null = null;
